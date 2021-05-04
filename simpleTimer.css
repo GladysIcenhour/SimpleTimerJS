@@ -1,0 +1,92 @@
+/**********
+ * Title *
+ **********/
+
+h1 {
+    font-size: 68px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    text-align: center;
+    line-height: 59px;
+    margin: 0;
+}
+
+/**********
+ *  Body  *
+ **********/
+
+body {
+    background-color: #e43c98;
+    color: #ffffff;
+}
+
+/**********
+ * Timer *
+ **********/
+
+.timerRing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fddc7a;
+    height: 270px;
+    width: 270px;
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+.timer {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.time {
+    font-family: "Roboto Condensed", monospace;
+    font-weight: 300;
+    font-size: 60px;
+    color: #fddc7a;
+}
+
+/******************************************
+ *  Gold accent for title and timer ring  *
+ ******************************************/
+
+.gold {
+    font-weight: 900;
+    color: #fddc7a;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+/***********
+ * Buttons *
+ ***********/
+
+.buttonLocation {
+    display: flex;
+    justify-content: space-between;
+    width: 187px;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+}
+
+#playButton {
+    display: block;
+}
+  
+#pauseButton {
+    display: none;
+}
+
+#resetButton {
+    display: block;
+}  

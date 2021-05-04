@@ -1,1 +1,2 @@
-# SimpleTimerJS
+# SimpleTimer
+A simple timer.

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Simple Timer</title>
+    <link rel="stylesheet" href="simpleTimer.css" />
+
+    <!--Font family for time-->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" 
+      rel="stylesheet"
+    />
+
+    <!--Font family for title/heading-->
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" 
+      rel="stylesheet"
+    /> 
+    
+  </head>
+  
+
+  <body>
+
+    <!--Container for timer ring-->
+    <div class="timer">
+      <h1><span class="gold">Simple Timer</span></h1> 
+      <div class="timerRing">
+        <span class="time" id="display">00:00:00</span>
+      </div> 
+
+      <!--Container for button location-->
+      <div class="buttonLocation">
+        <button class="buttonClassPlayAndPause">
+          <img id="playButton" src="icons/playButton.svg" />
+          <img id="pauseButton" src="icons/pauseButton.svg" />
+        </button>
+
+        <button class="buttonClassReset">
+          <img id="resetButton" src="icons/resetButton.svg" />
+        </button>
+      </div>
+    </div>
+
+    <!--Link to .js script-->
+    <script src="simpleTimer.js"></script>
+
+  </body>
+</html>
